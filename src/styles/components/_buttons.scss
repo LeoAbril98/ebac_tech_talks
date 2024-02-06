@@ -9,9 +9,16 @@
     text-align: center;
     white-space: nowrap;
 
+    
+
     &--primary {
         color: variables.$textColor;
         background-color: variables.$purple;
+        
+        &:hover{
+            background-color: lighten(#c33c2a, 10%);
+        }
+        
     }
 
     @media (max-width: 640px) {
@@ -24,4 +31,3 @@
         align-items: center;
     }
 }
-
